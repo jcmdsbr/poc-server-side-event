@@ -1,6 +1,0 @@
-@PocServerSideEvent_HostAddress = http://localhost:5081
-
-GET {{PocServerSideEvent_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###
