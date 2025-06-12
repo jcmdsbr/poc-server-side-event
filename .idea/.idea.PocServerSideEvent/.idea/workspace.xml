@@ -10,6 +10,10 @@
   <component name="ChangeListManager">
     <list default="true" id="1ccddde7-e9ba-40d4-b69c-7bd00c58dffa" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.PocServerSideEvent/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.PocServerSideEvent/.idea/projectSettingsUpdater.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.PocServerSideEvent/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.PocServerSideEvent/.idea/workspace.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/PocServerSideEvent.sln" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/PocServerSideEvent/PocServerSideEvent.csproj" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/PocServerSideEvent/PocServerSideEvent.http" afterDir="false" />
@@ -30,9 +34,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2yQAM5r28u5VfStdSymiwteJ1EX" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -54,6 +59,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
     "settings.editor.selected.configurable": "settings.sync"
   }
 }]]></component>
@@ -97,9 +103,11 @@
       <option name="presentableId" value="Default" />
       <updated>1749756373410</updated>
       <workItem from="1749756376883" duration="3489000" />
+      <workItem from="1749767195159" duration="150000" />
     </task>
     <servers />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
