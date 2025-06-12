@@ -1,3 +1,4 @@
+using System.Net.ServerSentEvents;
 using System.Runtime.CompilerServices;
 using System.Text;
 using CloudNative.CloudEvents;
@@ -21,7 +22,7 @@ await app.RunAsync();
 
 return;
 
-async IAsyncEnumerable<string> GetFeedbacksAsync([EnumeratorCancellation] CancellationToken cancellationToken)
+async IAsyncEnumerable<SseItem<string>> GetFeedbacksAsync([EnumeratorCancellation] CancellationToken cancellationToken)
 {
     await foreach (var index in Enumerable.Range(1, 10_000).ToAsyncEnumerable())
     {
@@ -37,7 +38,7 @@ async IAsyncEnumerable<string> GetFeedbacksAsync([EnumeratorCancellation] Cancel
         };
 
         var bytes = new JsonEventFormatter().EncodeStructuredModeMessage(@event, out _);
-        yield return Encoding.UTF8.GetString(bytes.Span);
+        yield return new SseItem<string>(Encoding.UTF8.GetString(bytes.Span), "application/cloudevents+json");
         await Task.Delay(1_000, cancellationToken);
     }
 }
